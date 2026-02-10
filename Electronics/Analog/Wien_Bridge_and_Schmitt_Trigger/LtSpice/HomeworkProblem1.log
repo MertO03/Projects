@@ -1,0 +1,112 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\IYTE\Third Year\Electronic 2\Homeworks\HomeworkProblem1.asc
+Start Time: Sun Dec 28 19:49:21 2025
+solver = Normal
+Maximum thread count: 8
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step r2val=5000
+
+
+
+.step r2val=6000
+
+
+
+.step r2val=7000
+
+
+
+.step r2val=8000
+
+
+
+.step r2val=9000
+
+
+
+.step r2val=10000
+
+
+
+.step r2val=11000
+
+
+
+.step r2val=12000
+
+
+
+.step r2val=13000
+
+
+
+.step r2val=14000
+
+
+
+.step r2val=15000
+
+
+
+.step r2val=16000
+
+
+
+.step r2val=17000
+
+
+
+.step r2val=18000
+
+
+
+.step r2val=19000
+tnom = 27
+temp = 27
+method = modified trap
+.step r2val=20000
+
+
+Measurement: tperiod
+  step	tperiod	FROM	TO
+     1	0	0	0
+     2	0	0	0
+     3	0	0	0
+     4	0	0	0
+     5	6.43276e-05	0.0013174	0.00138173
+     6	6.84808e-05	0.00133362	0.0014021
+     7	7.26712e-05	0.00141492	0.0014876
+     8	7.68878e-05	0.00149555	0.00157244
+     9	8.1088e-05	0.00157612	0.0016572
+    10	8.5139e-05	0.00165516	0.0017403
+    11	8.92062e-05	0.00173406	0.00182327
+    12	9.30204e-05	0.00181256	0.00190559
+    13	9.69637e-05	0.00188741	0.00198438
+    14	0.000100996	0.0019654	0.00206639
+    15	0.000105451	0.00203964	0.0021451
+    16	0.00010885	0.00211433	0.00222317
+
+Measurement: fosc
+  step	1/tperiod
+     1	0
+     2	0
+     3	0
+     4	0
+     5	15545.4
+     6	14602.6
+     7	13760.6
+     8	13006
+     9	12332.3
+    10	11745.5
+    11	11210
+    12	10750.3
+    13	10313.1
+    14	9901.38
+    15	9483.08
+    16	9186.99
+
+Total elapsed time: 9.179 seconds.
+
